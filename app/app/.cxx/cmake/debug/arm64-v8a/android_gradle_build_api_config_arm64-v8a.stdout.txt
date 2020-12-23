@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/debug/arm64-v8a'
+ninja: no work to do.

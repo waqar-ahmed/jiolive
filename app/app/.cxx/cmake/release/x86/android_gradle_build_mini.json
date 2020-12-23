@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/waqar/Projects/apps/Jio Live/app/app/src/main/jni/CMakeLists.txt",
+    "/home/waqar/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/home/waqar/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/waqar/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/waqar/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "api_config-Release-x86": {
+      "artifactName": "api_config",
+      "buildCommand": "/home/waqar/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86\" api_config",
+      "abi": "x86",
+      "output": "/home/waqar/Projects/apps/Jio Live/app/app/build/intermediates/cmake/release/obj/x86/libapi_config.so",
+      "runtimeFiles": []
+    }
+  }
+}

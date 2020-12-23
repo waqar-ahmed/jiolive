@@ -1,0 +1,75 @@
+.row{
+	padding:10px;
+}
+.btn{
+	text-transform: uppercase;
+}
+.app-sidebar {
+	padding-top: 51px;
+}
+
+.card-title {
+    padding: 20px;
+    font-size: 14px;
+}
+.panel-title{
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #6772e5;
+}
+button.close {
+    padding: 10px;
+    color: #fff;
+}
+.parsley-required,.parsley-length{
+	color: red;
+    list-style: none;
+    margin-left: -35px;
+}
+
+.treeview-item {
+    /*padding: 5px 5px 5px 12px;*/
+    /*margin-left: 10px;*/
+    font-size: 0.9em;
+}
+.treeview-item.active, .treeview-item:hover, .treeview-item:focus {
+    background: rgba(103, 114, 229, 0.5);
+}
+
+.treeview-item.active{
+    /*border-left: 1px solid #6772e5;*/
+}
+
+.header-line {
+    background-color: #e5e5e5;
+    height: 2px;
+    width: 100%;
+    content: '';
+    display: block;
+}
+
+.bootstrap-tagsinput .badge {
+    background-color: #6772e5;
+    border: 1px solid #035d54;
+}
+.swal-overlay {
+  background-color: rgba(43, 165, 137, 0.45);
+}
+
+.select2-container--open .select2-dropdown--below {
+    margin-top: 50px;
+}
+
+.page-number a {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #6772e5;
+    background-color: #FFF;
+    border: 1px solid #dee2e6;
+}
