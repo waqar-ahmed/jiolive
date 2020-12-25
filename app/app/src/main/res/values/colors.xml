@@ -6,6 +6,7 @@
 
     <color name="colorPrimaryDark">#4CAF50</color>
     <color name="colorPrimary">#9CCC65</color>
+<!--    <color name="colorPrimary">#44ED7C</color>-->
 
 
     <!--color for TextInputLayout outline color-->
@@ -80,7 +81,7 @@
     //bottom navigation for light mood
 <!--    <color name="bottomifyActiveColorLight">#ED1C24</color>
     <color name="bottomifyBackgroundColorLight">#FF9F96</color>-->
-    <color name="bottomifyActiveColorLight">#4CAF50</color>
+    <color name="bottomifyActiveColorLight">#44ED7C</color>
     <color name="bottomifyBackgroundColorLight">#9CCC65</color>
 
     <color name="bottomifyPassiveColorLight">#585858</color>

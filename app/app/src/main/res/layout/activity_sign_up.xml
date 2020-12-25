@@ -50,7 +50,7 @@
                     android:layout_marginBottom="@dimen/spacing_mlarge"
                     android:layout_marginTop="@dimen/spacing_large"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/app_icon_hr" />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"

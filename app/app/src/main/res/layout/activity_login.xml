@@ -48,7 +48,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/spacing_large"
                 android:layout_marginBottom="@dimen/spacing_mlarge"
-                android:src="@drawable/logo" />
+                android:src="@drawable/app_icon_hr" />
 
 
             <androidx.cardview.widget.CardView

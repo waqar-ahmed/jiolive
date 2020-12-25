@@ -65,7 +65,9 @@
                     android:layout_height="wrap_content"
                     android:onClick="btToggleClick"
                     android:text="@string/movie"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:visibility="gone"
+                    />
 
                 <Button
                     android:id="@+id/btn_flex_2"
@@ -73,7 +75,9 @@
                     android:layout_height="wrap_content"
                     android:onClick="btToggleClick"
                     android:text="@string/tv_series"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:visibility="gone"
+                    />
 
                 <Button
                     android:id="@+id/btn_flex_3"
@@ -91,7 +95,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="@dimen/spacing_large">
+                android:layout_marginTop="@dimen/spacing_large"
+                android:visibility="gone"
+                >
 
                 <TextView
                     android:id="@+id/genreText"
@@ -100,7 +106,8 @@
                     android:text="@string/genre"
                     android:textAlignment="center"
                     android:layout_centerVertical="true"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    />
 
                 <EditText
                     android:id="@+id/genre_spinner"
@@ -121,7 +128,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="@dimen/spacing_large">
+                android:layout_marginTop="@dimen/spacing_large"
+                android:visibility="gone"
+                >
 
                 <TextView
                     android:id="@+id/countrytv"
@@ -184,7 +193,9 @@
                 android:id="@+id/yearRangeLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
 
                 <TextView
                     android:id="@+id/rangeTV"
@@ -203,7 +214,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_large"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
 
                 <com.jiovio.jiolive.widget.RangeSeekBar
                     android:id="@+id/range_seek_bar"
