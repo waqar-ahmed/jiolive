@@ -42,7 +42,8 @@
                 android:textColor="@color/white"
                 android:paddingLeft="10dp"
                 android:singleLine="true"
-                android:paddingRight="10dp" />
+                android:paddingRight="10dp"
+                />
 
 
             <TextView
