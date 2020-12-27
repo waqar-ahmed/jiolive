@@ -34,10 +34,13 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
+import com.cloudnest.jiolive.BuildConfig;
+
 public class SettingsActivity extends AppCompatActivity {
     private SwitchCompat switchCompat, switchDarkMode;
     private LinearLayout tvTerms, shareLayout, movieRequestLayout;
     private ProgressBar progressBar;
+    private TextView appVersionTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,7 +82,15 @@ public class SettingsActivity extends AppCompatActivity {
         shareLayout = findViewById(R.id.share_layout);
         movieRequestLayout = findViewById(R.id.movieRequestLayout);
         progressBar = findViewById(R.id.code_progress);
+        appVersionTextView = findViewById(R.id.app_version);
 
+        /*
+        * Read version info from DefaultConfig and set it
+        * */
+        int versionCode = BuildConfig.VERSION_CODE;
+        String versionName = BuildConfig.VERSION_NAME;
+
+        appVersionTextView.setText(versionName);
 
         SharedPreferences preferences = getSharedPreferences("push", MODE_PRIVATE);
         switchCompat.setChecked(preferences.getBoolean("status", true));

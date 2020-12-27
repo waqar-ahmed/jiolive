@@ -168,6 +168,7 @@
                         android:layout_height="wrap_content"
                         android:textAlignment="viewStart"/>
                     <TextView
+                        android:id="@+id/app_version"
                         android:text="@string/app_version"
                         android:textSize="13sp"
                         android:layout_width="match_parent"
