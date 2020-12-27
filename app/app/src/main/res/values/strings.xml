@@ -28,7 +28,7 @@
     <string name="search">Search</string>
     <string name="no_item_found">No item found</string>
     <string name="cast_n_crew">Cast and Crew</string>
-    <string name="signin">Signin</string>
+    <string name="signin">Sign In</string>
     <string name="reset">Reset Password</string>
     <string name="register">Register</string>
     <string name="full_name">Full Name</string>
@@ -245,7 +245,7 @@
     <string name="get_activation_code_following">Follow bellow steps to get code:</string>
     <string name="instruction_2">2. Then go to Settings.</string>
     <string name="instruction_3">3. Then click on "Connect To TV."</string>
-    <string name="signout">SignOut</string>
+    <string name="signout">Sign Out</string>
     <string name="connect">Connect</string>
     <string name="user_name">User Name:</string>
     <string name="emailTv">Email:</string>
