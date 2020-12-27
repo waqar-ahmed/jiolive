@@ -90,7 +90,6 @@
                                 android:inputType="text"
                                 android:maxLines="1"
                                 android:singleLine="true"
-                                android:text="Waqar Ahmed"
                                 />
 
                         </com.google.android.material.textfield.TextInputLayout>
@@ -108,7 +107,6 @@
                                 android:inputType="textEmailAddress"
                                 android:maxLines="1"
                                 android:singleLine="true"
-                                android:text="wqrahd@gmail.com"
                                 />
 
                         </com.google.android.material.textfield.TextInputLayout>
@@ -127,7 +125,6 @@
                                 android:inputType="textPassword"
                                 android:maxLines="1"
                                 android:singleLine="true"
-                                android:text="waqar1234"
                                 />
 
                         </com.google.android.material.textfield.TextInputLayout>
