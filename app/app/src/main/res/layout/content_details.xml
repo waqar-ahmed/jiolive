@@ -691,9 +691,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="10dp"
-                                android:text="Now Watching" />
+                                android:text="Now Watching"
+                                android:visibility="gone"
+                                />
 
                             <LinearLayout
+                                android:visibility="gone"
                                 android:id="@+id/p_shedule_layout"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"

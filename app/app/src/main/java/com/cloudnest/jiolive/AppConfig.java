@@ -18,7 +18,7 @@ public class AppConfig {
     public static final String API_KEY = getApiKey();
 
     //copy your terms url from php admin dashboard & paste below
-    public static final String TERMS_URL = "http://demo.redtvlive.com/oxoo/v13/terms/";
+    public static final String TERMS_URL = "https://jiolive.000webhostapp.com/terms";
 
     //put your envato item purchase code
     public static final String ENVATO_PURCHASE_CODE = getPurchaseCode();
