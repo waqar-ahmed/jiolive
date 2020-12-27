@@ -1,3 +1,0 @@
-/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86/CMakeFiles/rebuild_cache.dir
-/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86/CMakeFiles/edit_cache.dir
-/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/release/x86/CMakeFiles/api_config.dir

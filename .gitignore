@@ -116,3 +116,16 @@ app/lint/tmp/
 
 # Android Profiling
 app/*.hprof
+app/app/google-services.json
+
+app/app/.cxx/cmake/
+
+google-services.json
+
+cloudnest.keystore
+
+keystore_content.sh
+
+app/nativetemplates/build/intermediates/incremental/packageDebugResources/
+
+app/nativetemplates/build/intermediates/merged_java_res/debug/
