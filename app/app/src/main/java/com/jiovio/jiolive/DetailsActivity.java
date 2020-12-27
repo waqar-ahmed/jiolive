@@ -1730,8 +1730,10 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {
                 if (!wasRestored) {
-                    youTubePlayer.cueVideo(separated[1]);
-                    youTubePlayer.play();
+                    // youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.CHROMELESS); // It will remove youtube logo, title and controls
+                    youTubePlayer.loadVideo(separated[1]);
+                    //youTubePlayer.cueVideo(separated[1]);
+                    //youTubePlayer.play();
                 }
             }
 
