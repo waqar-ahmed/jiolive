@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jiovio.jiolive"
+    package="com.cloudnest.jiolive"
     tools:ignore="MissingLeanbackLauncher">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.jiovio.jiolive.utils.MyAppClass"
+        android:name="com.cloudnest.jiolive.utils.MyAppClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -27,12 +27,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.jiovio.jiolive.RazorPayActivity" />
-        <activity android:name="com.jiovio.jiolive.SearchActivity" />
+        <activity android:name="com.cloudnest.jiolive.RazorPayActivity" />
+        <activity android:name="com.cloudnest.jiolive.SearchActivity" />
         <activity
-            android:name="com.jiovio.jiolive.PapalPaymentActivity"
+            android:name="com.cloudnest.jiolive.PapalPaymentActivity"
             android:theme="@style/AppTheme.Nobar" />
-        <activity android:name="com.jiovio.jiolive.WebViewActivity" />
+        <activity android:name="com.cloudnest.jiolive.WebViewActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -70,44 +70,44 @@
             </intent-filter>
         </activity> <!-- facebook end -->
         <activity
-            android:name="com.jiovio.jiolive.TermsActivity"
+            android:name="com.cloudnest.jiolive.TermsActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.ReplyActivity"
+            android:name="com.cloudnest.jiolive.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.jiovio.jiolive.ProfileActivity"
+            android:name="com.cloudnest.jiolive.ProfileActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.PassResetActivity"
+            android:name="com.cloudnest.jiolive.PassResetActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.SearchResultActivity"
+            android:name="com.cloudnest.jiolive.SearchResultActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.SignUpActivity"
+            android:name="com.cloudnest.jiolive.SignUpActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.LoginActivity"
+            android:name="com.cloudnest.jiolive.LoginActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.DetailsActivity"
+            android:name="com.cloudnest.jiolive.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:windowSoftInputMode="adjustPan"
             android:theme="@style/AppTheme.NoActionBar" />
         <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.jiovio.jiolive.MainActivity"
+            android:name="com.cloudnest.jiolive.MainActivity"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.jiovio.jiolive.SettingsActivity"
+            android:name="com.cloudnest.jiolive.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.SplashScreenActivity"
+            android:name="com.cloudnest.jiolive.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -116,31 +116,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jiovio.jiolive.ItemMovieActivity"
+            android:name="com.cloudnest.jiolive.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.jiovio.jiolive.ItemTVActivity"
+            android:name="com.cloudnest.jiolive.ItemTVActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.ItemSeriesActivity"
+            android:name="com.cloudnest.jiolive.ItemSeriesActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.SubscriptionActivity"
+            android:name="com.cloudnest.jiolive.SubscriptionActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.StripePaymentActivity"
+            android:name="com.cloudnest.jiolive.StripePaymentActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.PurchasePlanActivity"
+            android:name="com.cloudnest.jiolive.PurchasePlanActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.jiovio.jiolive.DownloadActivity"
+            android:name="com.cloudnest.jiolive.DownloadActivity"
             android:theme="@style/AppTheme.Nobar" />
 
-        <service android:name="com.jiovio.jiolive.service.DownloadService"/>
+        <service android:name="com.cloudnest.jiolive.service.DownloadService"/>
 
-        <service android:name="com.jiovio.jiolive.service.FileDownloadJobService"
+        <service android:name="com.cloudnest.jiolive.service.FileDownloadJobService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
     </application>

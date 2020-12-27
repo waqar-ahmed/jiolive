@@ -1,0 +1,6 @@
+# ninja log v5
+0	4	0	clean	b5d5fd6d5de66a36
+0	33	0	clean	b5d5fd6d5de66a36
+0	6	0	clean	b5d5fd6d5de66a36
+1	4584	1609080920	CMakeFiles/api_config.dir/api_config.cpp.o	cde25f74d0406217
+4586	5046	1609080920	/home/waqar/Projects/apps/Jio Live/app/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libapi_config.so	f98b58e1b1a45369

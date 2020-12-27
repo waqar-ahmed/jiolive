@@ -219,7 +219,7 @@
                 android:visibility="gone"
                 >
 
-                <com.jiovio.jiolive.widget.RangeSeekBar
+                <com.cloudnest.jiolive.widget.RangeSeekBar
                     android:id="@+id/range_seek_bar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

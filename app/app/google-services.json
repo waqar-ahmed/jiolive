@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:xxxxxxxxxxx:android:xxxxxxxxxxxx",
         "android_client_info": {
-          "package_name": "com.jiovio.jiolive"
+          "package_name": "com.cloudnest.jiolive"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "xxxxxxxxxxxxx-xxxxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxxxxxx"
           }
         },
@@ -34,7 +34,7 @@
           "client_id": "xxxxxxxxxxx-xxxxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxxxx"
           }
         },
@@ -70,7 +70,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:xxxxxxxxxxxxx:android:xxxxxxxxxxxxxx",
         "android_client_info": {
-          "package_name": "com.jiovio.jiolive"
+          "package_name": "com.cloudnest.jiolive"
         }
       },
       "oauth_client": [
@@ -78,7 +78,7 @@
           "client_id": "xxxxxxxxxx-xxxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxxxxxxx"
           }
         },
@@ -86,7 +86,7 @@
           "client_id": "xxxxxxxxxxx-xxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxx"
           }
         },
@@ -94,7 +94,7 @@
           "client_id": "567606593355-xxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxxxx"
           }
         },
@@ -102,7 +102,7 @@
           "client_id": "567606593355-xxxxxxxxxxxx.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jiovio.jiolive",
+            "package_name": "com.cloudnest.jiolive",
             "certificate_hash": "xxxxxxxxxxxxxxxx"
           }
         },
@@ -127,7 +127,7 @@
               "client_id": "xxxxxxxxxx-xxxxxxxxxxxx.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.jiovio.jiolive"
+                "bundle_id": "com.cloudnest.jiolive"
               }
             }
           ]

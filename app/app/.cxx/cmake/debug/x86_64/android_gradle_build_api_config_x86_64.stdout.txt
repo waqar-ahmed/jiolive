@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/debug/x86_64'
+[1/2] Building CXX object CMakeFiles/api_config.dir/api_config.cpp.o
+[2/2] Linking CXX shared library "/home/waqar/Projects/apps/Jio Live/app/app/build/intermediates/cmake/debug/obj/x86_64/libapi_config.so"

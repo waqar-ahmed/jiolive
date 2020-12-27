@@ -1,0 +1,7 @@
+Executable : /home/waqar/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/waqar/Projects/apps/Jio Live/app/app/.cxx/cmake/debug/armeabi-v7a
+api_config
+jvmArgs : 
+
